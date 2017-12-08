@@ -20,7 +20,6 @@ public class BoiskoScreenController {
     final int szerokoscObwoduBoiska = 2;
     //yZero xZero to poczatki ukladow wspolrzednych, d
     final int xZero = 2 * jednostkaWymiaruBoiska;
-
     final int yZero = 1 * jednostkaWymiaruBoiska;
 
     public MainController getMainController() {
