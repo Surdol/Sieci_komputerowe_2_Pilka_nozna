@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/silnik/Punkt.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sieci_komputerowe_PIlka_nozna/controllers/BoiskoScreenController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sieci_komputerowe_PIlka_nozna/silnik/Boisko.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/silnik/Boisko.java" afterPath="$PROJECT_DIR$/src/silnik/StanGry.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/BoiskoScreenController.java" afterPath="$PROJECT_DIR$/src/controllers/BoiskoScreenController.java" />
     </list>
@@ -105,7 +109,7 @@
       <file leaf-file-name="MenuScreenController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/MenuScreenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="211">
               <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -127,29 +131,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoiskoScreenController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BoiskoScreenController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/BoiskoScreenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            <state relative-caret-position="85">
+              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#BoiskoScreenController#0;class#BoiskoScreenController#0" expanded="false" />
-                <element signature="method#initialize#0;class#BoiskoScreenController#0" expanded="false" />
                 <element signature="method#rysujPusteBoisko#0;class#BoiskoScreenController#0" expanded="false" />
                 <element signature="method#rysujStaraLinie#0;class#BoiskoScreenController#0" expanded="false" />
+                <element signature="method#rysujNowaLinie#0;class#BoiskoScreenController#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Boisko.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/silnik/Boisko.java">
+      <file leaf-file-name="StanGry.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/silnik/StanGry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Punkt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/silnik/Punkt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -198,7 +217,9 @@
         <option value="$PROJECT_DIR$/src/controllers/MenuScreenController.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/silnik/Boisko.java" />
+        <option value="$PROJECT_DIR$/src/silnik/Punkt.java" />
         <option value="$PROJECT_DIR$/src/controllers/BoiskoScreenController.java" />
+        <option value="$PROJECT_DIR$/src/silnik/StanGry.java" />
       </list>
     </option>
   </component>
@@ -449,7 +470,7 @@
       <workItem from="1512649839469" duration="366000" />
       <workItem from="1512735395697" duration="956000" />
       <workItem from="1512742744850" duration="1839000" />
-      <workItem from="1512746368434" duration="610000" />
+      <workItem from="1512746368434" duration="3453000" />
     </task>
     <task id="LOCAL-00001" summary="dodałem rysowanie boiska, rysowanie lini starej">
       <created>1512744128712</created>
@@ -465,11 +486,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512746623500</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dodane rysowanie nowej lini">
+      <created>1512747001206</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512747001206</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22265000" />
+    <option name="totallyTimeSpent" value="25108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -477,6 +505,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -502,7 +531,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -519,7 +547,8 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="dodałem rysowanie boiska, rysowanie lini starej" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodałem rysowanie boiska, rysowanie lini starej" />
+    <MESSAGE value="dodane rysowanie nowej lini" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodane rysowanie nowej lini" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -532,16 +561,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/controllers/MenuScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fxml/BoiskoScreen.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -553,12 +572,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/silnik/Boisko.java">
+    <entry file="file://$PROJECT_DIR$/src/silnik/StanGry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -568,10 +591,11 @@
         <state relative-caret-position="391">
           <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#BoiskoScreenController#0;class#BoiskoScreenController#0" expanded="false" />
-            <element signature="method#initialize#0;class#BoiskoScreenController#0" expanded="false" />
             <element signature="method#rysujPusteBoisko#0;class#BoiskoScreenController#0" expanded="false" />
             <element signature="method#rysujStaraLinie#0;class#BoiskoScreenController#0" expanded="false" />
+            <element signature="method#rysujNowaLinie#0;class#BoiskoScreenController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -632,12 +656,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/silnik/Boisko.java">
+    <entry file="file://$PROJECT_DIR$/src/silnik/StanGry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -647,10 +675,11 @@
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#BoiskoScreenController#0;class#BoiskoScreenController#0" expanded="false" />
-            <element signature="method#initialize#0;class#BoiskoScreenController#0" expanded="false" />
             <element signature="method#rysujPusteBoisko#0;class#BoiskoScreenController#0" expanded="false" />
             <element signature="method#rysujStaraLinie#0;class#BoiskoScreenController#0" expanded="false" />
+            <element signature="method#rysujNowaLinie#0;class#BoiskoScreenController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -711,12 +740,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/silnik/Boisko.java">
+    <entry file="file://$PROJECT_DIR$/src/silnik/StanGry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -726,10 +759,11 @@
         <state relative-caret-position="119">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#BoiskoScreenController#0;class#BoiskoScreenController#0" expanded="false" />
-            <element signature="method#initialize#0;class#BoiskoScreenController#0" expanded="false" />
             <element signature="method#rysujPusteBoisko#0;class#BoiskoScreenController#0" expanded="false" />
             <element signature="method#rysujStaraLinie#0;class#BoiskoScreenController#0" expanded="false" />
+            <element signature="method#rysujNowaLinie#0;class#BoiskoScreenController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -795,20 +829,25 @@
         <state relative-caret-position="119">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#BoiskoScreenController#0;class#BoiskoScreenController#0" expanded="false" />
-            <element signature="method#initialize#0;class#BoiskoScreenController#0" expanded="false" />
             <element signature="method#rysujPusteBoisko#0;class#BoiskoScreenController#0" expanded="false" />
             <element signature="method#rysujStaraLinie#0;class#BoiskoScreenController#0" expanded="false" />
+            <element signature="method#rysujNowaLinie#0;class#BoiskoScreenController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/silnik/Boisko.java">
+    <entry file="file://$PROJECT_DIR$/src/silnik/StanGry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -885,10 +924,11 @@
         <state relative-caret-position="782">
           <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#BoiskoScreenController#0;class#BoiskoScreenController#0" expanded="false" />
-            <element signature="method#initialize#0;class#BoiskoScreenController#0" expanded="false" />
             <element signature="method#rysujPusteBoisko#0;class#BoiskoScreenController#0" expanded="false" />
             <element signature="method#rysujStaraLinie#0;class#BoiskoScreenController#0" expanded="false" />
+            <element signature="method#rysujNowaLinie#0;class#BoiskoScreenController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1030,16 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/MenuScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1072,25 +1102,48 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/silnik/Boisko.java">
+    <entry file="file://$PROJECT_DIR$/src/controllers/MenuScreenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="211">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/silnik/Punkt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/BoiskoScreenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        <state relative-caret-position="85">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#BoiskoScreenController#0;class#BoiskoScreenController#0" expanded="false" />
-            <element signature="method#initialize#0;class#BoiskoScreenController#0" expanded="false" />
             <element signature="method#rysujPusteBoisko#0;class#BoiskoScreenController#0" expanded="false" />
             <element signature="method#rysujStaraLinie#0;class#BoiskoScreenController#0" expanded="false" />
+            <element signature="method#rysujNowaLinie#0;class#BoiskoScreenController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/silnik/StanGry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
           </folding>
         </state>
       </provider>

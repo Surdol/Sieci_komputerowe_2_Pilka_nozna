@@ -4,30 +4,22 @@ import javafx.fxml.FXML;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
-import silnik.Boisko;
-
+import silnik.StanGry;
 
 public class BoiskoScreenController {
     private MainController mainController;
     @FXML
     private Canvas canvas; //wymiary boiska to 600x700 jednostek
     private GraphicsContext boisko;
-    final int jednostkaWymiaruBoiska = 50;
-    final int szerokoscStarejLini = 1;
-    final int szerokoscNowejLini = 3;
-    final int promienKolaPozycji = 2;
-    final int promienKropkiBoiska =2;
-    final int szerokoscObwoduBoiska = 2;
+    private final int jednostkaWymiaruBoiska = 50;
+    private final int szerokoscStarejLini = 1;
+    private final int szerokoscNowejLini = 3;
+    private final int promienKolaPozycji = 4;
+    private final int promienKropkiBoiska =2;
+    private final int szerokoscObwoduBoiska = 2;
     //yZero xZero to poczatki ukladow wspolrzednych, d
-    final int xZero = 2 * jednostkaWymiaruBoiska;
-    final int yZero = 1 * jednostkaWymiaruBoiska;
-
-    public MainController getMainController() {
-        return mainController;
-    }
-    public void setMainController(MainController mainController) {
-        this.mainController = mainController;
-    }
+    private final int xZero = 2 * jednostkaWymiaruBoiska;
+    private final int yZero = 1 * jednostkaWymiaruBoiska;
 
     public void  BoiskoScreenController(){
 
@@ -37,8 +29,20 @@ public class BoiskoScreenController {
         boisko = canvas.getGraphicsContext2D();
         rysujPusteBoisko(jednostkaWymiaruBoiska);
         rysujStaraLinie(4,6,4,5);
-        rysujStaraLinie(4,6,4,5);
+        rysujNowaLinie(4,5,4,4);
+        rysujKoloPozycji(4,4);
     }
+
+
+    public MainController getMainController() {
+        return mainController;
+    }
+    public void setMainController(MainController mainController) {
+        this.mainController = mainController;
+    }
+
+
+
     /*  POCZATEK UKLADU WSPOLRZEDNYCH W PRAWYM GORNYM ROGU os x rosnie w PRAWO, os y rosnie w DOL*/
     public void rysujPusteBoisko(int jednostka){
         boisko.setFill(Color.GREEN);
@@ -76,6 +80,7 @@ public class BoiskoScreenController {
         boisko.fillOval(6*jednostka, 12 * jednostka, promienKropkiBoiska, promienKropkiBoiska);
     }
 
+    //cienki linie poprzendich ruchów
     public void rysujStaraLinie(int xPoczatek, int yPoczatek, int xKoniec, int yKoniec){
 
 
@@ -85,10 +90,18 @@ public class BoiskoScreenController {
                 xZero + xKoniec * jednostkaWymiaruBoiska, yZero + yKoniec * jednostkaWymiaruBoiska);
     }
 
+    //grube linie aktualnego ruchu
     public void rysujNowaLinie(int xPoczatek, int yPoczatek, int xKoniec, int yKoniec){
         boisko.setLineWidth(szerokoscNowejLini);
         boisko.setStroke(Color.WHITE);
         boisko.strokeLine(xZero + xPoczatek * jednostkaWymiaruBoiska,yZero + yPoczatek * jednostkaWymiaruBoiska,
                 xZero + xKoniec * jednostkaWymiaruBoiska, yZero + yKoniec * jednostkaWymiaruBoiska);
+    }
+
+    //kolko aktualnej pozycji
+    public void rysujKoloPozycji(int x, int y){
+        boisko.setFill(Color.WHITE);
+        boisko.strokeOval(xZero + x * jednostkaWymiaruBoiska, yZero + y * jednostkaWymiaruBoiska,promienKolaPozycji, promienKolaPozycji);
+
     }
 }
