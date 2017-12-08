@@ -87,6 +87,9 @@ public class BoiskoScreenController {
     }
 
     public void rysujNowaLinie(int xPoczatek, int yPoczatek, int xKoniec, int yKoniec){
-
+        boisko.setLineWidth(szerokoscNowejLini);
+        boisko.setStroke(Color.WHITE);
+        boisko.strokeLine(xZero + xPoczatek * jednostkaWymiaruBoiska,yZero + yPoczatek * jednostkaWymiaruBoiska,
+                xZero + xKoniec * jednostkaWymiaruBoiska, yZero + yKoniec * jednostkaWymiaruBoiska);
     }
 }
