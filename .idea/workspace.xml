@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="dziala logika gry dodane polazeni z serwerem">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/boisko_wspolrzedne.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/siec/PolaczenieKlient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/silnik/MozliweKierunkiRuchu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/silnik/Punkt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/silnik/StanGry.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Sieci_komputerowe_PIlka_nozna/controllers/BoiskoScreenController.class" afterPath="$PROJECT_DIR$/out/production/Sieci_komputerowe_PIlka_nozna/controllers/BoiskoScreenController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Sieci_komputerowe_PIlka_nozna/controllers/MainController.class" afterPath="$PROJECT_DIR$/out/production/Sieci_komputerowe_PIlka_nozna/controllers/MainController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Sieci_komputerowe_PIlka_nozna/controllers/MenuScreenController.class" afterPath="$PROJECT_DIR$/out/production/Sieci_komputerowe_PIlka_nozna/controllers/MenuScreenController.class" />
@@ -14,12 +9,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Sieci_komputerowe_PIlka_nozna/fxml/BoiskoScreen.fxml" afterPath="$PROJECT_DIR$/out/production/Sieci_komputerowe_PIlka_nozna/fxml/BoiskoScreen.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Sieci_komputerowe_PIlka_nozna/fxml/MainScreen.fxml" afterPath="$PROJECT_DIR$/out/production/Sieci_komputerowe_PIlka_nozna/fxml/MainScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/BoiskoScreenController.java" afterPath="$PROJECT_DIR$/src/controllers/BoiskoScreenController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/MainController.java" afterPath="$PROJECT_DIR$/src/controllers/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/MenuScreenController.java" afterPath="$PROJECT_DIR$/src/controllers/MenuScreenController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fxml/BoiskoScreen.fxml" afterPath="$PROJECT_DIR$/src/fxml/BoiskoScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fxml/MainScreen.fxml" afterPath="$PROJECT_DIR$/src/fxml/MainScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Main.java" afterPath="$PROJECT_DIR$/src/sample/Main.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -487,12 +476,20 @@
       <workItem from="1518945451951" duration="5282000" />
       <workItem from="1518967218068" duration="3309000" />
       <workItem from="1518980896820" duration="308000" />
-      <workItem from="1519299995275" duration="4690000" />
+      <workItem from="1519299995275" duration="4712000" />
     </task>
+    <task id="LOCAL-00001" summary="dziala logika gry dodane polazeni z serwerem">
+      <created>1519307137134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1519307137134</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81724000" />
+    <option name="totallyTimeSpent" value="81746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
