@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.canvas.Canvas?>
-<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.Pane?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="756.0" prefWidth="918.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.BoiskoScreenController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="756.0" prefWidth="1091.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.BoiskoScreenController">
    <children>
       <Canvas fx:id="canvas" height="700.0" layoutX="131.0" layoutY="14.0" width="600.0" />
-      <ToggleButton layoutX="758.0" layoutY="364.0" mnemonicParsing="false" text="ToggleButton" />
+      <Button fx:id="goraLewo" disable="true" layoutX="790.0" layoutY="250.0" mnemonicParsing="false" onAction="#rysujGoraLewo" text="Góra-lewo" />
+      <Button fx:id="gora" disable="true" layoutX="882.0" layoutY="250.0" mnemonicParsing="false" onAction="#rysujGora" text="Góra" />
+      <Button fx:id="goraPrawo" disable="true" layoutX="934.0" layoutY="250.0" mnemonicParsing="false" onAction="#rysujGoraPrawo" text="Góra-prawo" />
+      <Button fx:id="prawo" disable="true" layoutX="964.0" layoutY="304.0" mnemonicParsing="false" onAction="#rysujPrawo" text="Prawo" />
+      <Button fx:id="dolPrawo" disable="true" layoutX="940.0" layoutY="366.0" mnemonicParsing="false" onAction="#rysujDolPrawo" text="Dół-prawo" />
+      <Button fx:id="dol" disable="true" layoutX="875.0" layoutY="366.0" mnemonicParsing="false" onAction="#rysujDol" text="Dół" />
+      <Button fx:id="dolLewo" disable="true" layoutX="790.0" layoutY="366.0" mnemonicParsing="false" onAction="#rysujDolLewo" text="Dół-lewo" />
+      <Button fx:id="lewo" disable="true" layoutX="790.0" layoutY="304.0" mnemonicParsing="false" onAction="#rysujLewo" text="Lewo" />
    </children>
 </Pane>

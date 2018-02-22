@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
+import siec.PolaczenieKlient;
 
 import java.io.IOException;
 
@@ -11,12 +12,25 @@ public class MainController {
     @FXML
     private StackPane mainStackPane;
 
+    public PolaczenieKlient klient;
+
     public MainController(){
         System.out.println("Odpalam program");
+
+        try {
+            klient = new PolaczenieKlient();
+            System.out.println("Nastpiło połączenie z serwerem");
+            klient.odbierzKomunikat();
+
+        } catch (IOException e) {
+            System.out.println("Nie można nawiązać połączenia z serwerem!");
+        }
+
     }
 
     public void initialize(){
         setMenuScreen();
+
     }
 
     //ustawianei ekranu menu

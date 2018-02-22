@@ -22,6 +22,8 @@ public class MenuScreenController {
         this.mainController = mainController;
     }
 
+
+
     public void openBoiskoScreen(){
         FXMLLoader loader = new FXMLLoader(this.getClass().getResource("../fxml/BoiskoScreen.fxml"));
         Pane pane = null;
